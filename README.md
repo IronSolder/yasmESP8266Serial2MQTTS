@@ -19,10 +19,10 @@
 
 # Outlook/Other use cases
 - Another device based on the ESP32 development platform processes the serial optical outputs of a smart meter in SML format to record power consumption data using a similar functional principle. Of course, a different parser is required for this.
-- implement deep sleep mode to reduce power consumption (maybe ESP32 could be more suitable), including adaptive timetable processing (dependend on sunrise, sunset, brightness, etc.)
-- implement external flap state confirmation with additional reed contact(s) (flapcontrol) - don't trust the chicken flap controller...
-- implement remote control functions (ESP32 WILL be more suitable because of the ESP8266 gpio restriction)
-- exchange wifi by lorawan or meshtastic -> develoment board choice?
+- Implement deep sleep mode to reduce power consumption (maybe ESP32 could be more suitable), including adaptive timetable processing (dependend on sunrise, sunset, brightness, etc.)
+- Implement external flap state confirmation with additional reed contact(s) (flapcontrol) - don't trust the chicken flap controller...
+- Implement remote control functions (ESP32 WILL be more suitable because of the ESP8266 gpio restriction)
+- Exchange wifi by lorawan or meshtastic -> develoment board choice?
 
 # Notes
 - The implementation example is to provide a collection of internal and external code examples.
