@@ -1,4 +1,5 @@
-# yet another serial to mqtts device based on ESP8266
+# Repository
+- yasmESP8266Serial2MQTTS (yet another serial to mqtts device based on ESP8266)
 
 # Summary
 - The aim of this repository is to provide an active and actually successful implementation example in use for a device based on the ESP8266 development platform with a secure connection to the MQTTS broker.
