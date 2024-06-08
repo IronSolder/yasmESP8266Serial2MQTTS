@@ -815,7 +815,7 @@ void loop() {
       }
     }
 
-    // make it blinky (with onboard led)!
+    // drive monochromatic 1x1 led matrix display (or: make it blinky with onboard led! ;-))
     // blinkMode bit settings (order corresponds to increasing priority):
     //  bit 0 - heartbeat
     //  bit 1 - raw mode (slow constant blinking)
