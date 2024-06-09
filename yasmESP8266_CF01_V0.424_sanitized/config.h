@@ -20,9 +20,8 @@
 #define DEVICE_TYPE "secure_mqtt_node"
 #define DEVICE_FUNCTION "serial_interface"
 #define DEVICE_NAME "esp8266_cf01"
-#define DEVICE_MACADDRESS {0x31, 0xA1, 0xA3, 0x10, 0x0F, 0x11}
-
-/*******************************************************************************************************************
+#define DEVICE_MACADDRESS {0x6C, 0xB2, 0x27, 0x8A, 0x10, 0xA1} // oh, i am a sony ;-)!
+/******************************************************************************************************************
 * MQTT TOPIC SECTION
 *******************************************************************************************************************/
 #define MQTT_VERSION MQTT_VERSION_3_1_1
