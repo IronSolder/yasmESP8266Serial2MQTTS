@@ -25,7 +25,7 @@
 * - implement deep sleep mode to reduce power consumption (maybe ESP32 could be more suitable), including adaptive timetable processing (dependend on sunrise, sunset, brightness, etc.)
 * - implement external flap state sensing with additional reed contact(s) (flapcontrol) - don't trust the chicken flap controller...
 * - implement remote control functions (ESP32 WILL be more suitable because of the ESP8266 gpio restriction)
-* - exchange wifi by lorawan or meshtastic -> develoment board choice?
+* - exchange wifi by lorawan or meshtastic and implement more energy efficient transmission protocols than mqtt/json. Therefor the choice of develoment board should be also evaluated.
 *
 * Conclusions
 * - ESP8266 is a very cheap development board (< 5€) for realization core functionalities, but it is not necessarily usefull for further developments
